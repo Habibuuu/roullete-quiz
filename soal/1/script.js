@@ -1,34 +1,10 @@
 const quizData = [
     {
-        question: "Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "javascript",
-        correct: "d",
-    },
-    {
-        question: "What does CSS stand for?",
-        a: "Central Style Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars SUVs Sailboats",
-        correct: "b",
-    },
-    {
-        question: "What does HTML stand for?",
-        a: "Hypertext Markup Language",
-        b: "Hypertext Markdown Language",
-        c: "Hyperloop Machine Language",
-        d: "Helicopters Terminals Motorboats Lamborginis",
-        correct: "a",
-    },
-    {
-        question: "What year was JavaScript launched?",
-        a: "1996",
-        b: "1995",
-        c: "1994",
-        d: "none of the above",
+        question: "Singkatan dari apakah BSSN ?",
+        a: "Badan Sandi dan Siber Negara",
+        b: "Badan Siber dan Sandi Negara",
+        c: "Badan Siber dan Sandi Nasional",
+        d: "Badan Sandi dan Siber Nasional",
         correct: "b",
     },
 
@@ -78,6 +54,7 @@ function getSelected() {
 }
 
 
+//Jawaban
 submitBtn.addEventListener('click', () => {
     const answer = getSelected()
     if(answer) {
@@ -89,12 +66,129 @@ submitBtn.addEventListener('click', () => {
 
        if(currentQuiz < quizData.length) {
            loadQuiz()
-       } else {
+       } 
+       //Jawab benar
+       if(score == 1) {
            quiz.innerHTML = `
-           <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <center>
+           <div class="emoji emoji--haha">
+                <div class="emoji__face">
+                    <div class="emoji__eyes"></div>
+                    <div class="emoji__mouth">
+                    <div class="emoji__tongue"></div>
+                    </div>
+                </div>
+            </div>
+            <h1>Selamat anda benar</h1>
+            </center>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
 
-           <button onclick="location.reload()">Reload</button>
+           <audio autoplay id="benar" src="./applause.mp3" type="audio/mp3"></audio>
+           <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
            `
+       } 
+       //jawaban salah
+       else {
+        score = 2;
+        quiz.innerHTML = `
+        <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <center>
+           <div class="emoji emoji--angry">
+                <div class="emoji__face">
+                    <div class="emoji__eyebrows"></div>
+                    <div class="emoji__eyes"></div>
+                    <div class="emoji__mouth"></div>
+                </div>
+            </div>
+            <h1>Tetot salah</h1>
+           </center>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+
+           <audio autoplay id="salah" src="./wrong.mp3" type="audio/mp3"></audio>
+           <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+        `
        }
+       
     }
 })
+
+//Waktu habis
+var sec = 10;
+  var myTimer = document.getElementById('myTimer');
+  var submit = document.getElementById('submit');
+  window.onload = countDown;
+
+  function countDown() {
+      if (sec < 1) {
+          myTimer.innerHTML = "0";
+      } else {
+          myTimer.innerHTML = sec;
+      }
+      if (sec <= 0) {
+          submit.setAttribute("disabled", true);
+
+          if(score == 0){
+
+            quiz.innerHTML = `
+          <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <center>
+             <div class="emoji emoji--sad">
+                <div class="emoji__face">
+                    <div class="emoji__eyebrows"></div>
+                    <div class="emoji__eyes"></div>
+                    <div class="emoji__mouth"></div>
+                </div>
+                </div>
+                <h1>Waktu Habis</h1>
+            </center>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+  
+             <audio autoplay id="telat" src="./telat.mp3" type="audio/mp3"></audio>
+             <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+          `
+  
+            $("#myTimer").fadeTo(2500, 0);
+            submit.innerHTML = "Click Me!";
+            return;
+          }
+      }
+      sec -= 1;
+      window.setTimeout(countDown, 1000);
+  }

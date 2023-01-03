@@ -31,42 +31,42 @@ function spin() {
   // Item berupa ipad dan samsung tab tidak akan pernah menang.
   // let Sepeda = shuffle([2210]); //Kemungkinan : 33% atau 1/3
   let q1 = shuffle([1890, 2250, 2610]);
-  let q2 = shuffle([1850, 2210, 2570]); //Kemungkinan : 100%
-  let q3 = shuffle([1818, 2178, 2538]);
-  let q4 = shuffle([1782, 2142, 2502]);
-  let q5 = shuffle([1748, 2108, 2468]);
-  let q6 = shuffle([1710, 2080, 2430]);
-  let q7 = shuffle([1670, 2040, 2390]);
-  let q8 = shuffle([1635, 1995, 2355]);
-  let q9 = shuffle([1600, 1960, 2320]);
-  let q10 = shuffle([1570, 1930, 2290]);
+  // let q2 = shuffle([1850, 2210, 2570]); //Kemungkinan : 100%
+  // let q3 = shuffle([1818, 2178, 2538]);
+  // let q4 = shuffle([1782, 2142, 2502]);
+  // let q5 = shuffle([1748, 2108, 2468]);
+  // let q6 = shuffle([1710, 2080, 2430]);
+  // let q7 = shuffle([1670, 2040, 2390]);
+  // let q8 = shuffle([1635, 1995, 2355]);
+  // let q9 = shuffle([1600, 1960, 2320]);
+  // let q10 = shuffle([1570, 1930, 2290]);
 
   // Bentuk acak
   let Hasil = shuffle([
     q1[0],
-    q2[0],
-    q3[0],
-    q4[0],
-    q5[0],
-    q6[0],
-    q7[0],
-    q8[0],
-    q9[0],
-    q10[0],
+    // q2[0],
+    // q3[0],
+    // q4[0],
+    // q5[0],
+    // q6[0],
+    // q7[0],
+    // q8[0],
+    // q9[0],
+    // q10[0],
   ]);
   // console.log(Hasil[0]);
 
   // Ambil value item yang terpilih
   if (q1.includes(Hasil[0])) SelectedItem = "1";
-  if (q2.includes(Hasil[0])) SelectedItem = "2";
-  if (q3.includes(Hasil[0])) SelectedItem = "3";
-  if (q4.includes(Hasil[0])) SelectedItem = "4";
-  if (q5.includes(Hasil[0])) SelectedItem = "5";
-  if (q6.includes(Hasil[0])) SelectedItem = "6";
-  if (q7.includes(Hasil[0])) SelectedItem = "7";
-  if (q8.includes(Hasil[0])) SelectedItem = "8";
-  if (q9.includes(Hasil[0])) SelectedItem = "9";
-  if (q10.includes(Hasil[0])) SelectedItem = "10";
+  // if (q2.includes(Hasil[0])) SelectedItem = "2";
+  // if (q3.includes(Hasil[0])) SelectedItem = "3";
+  // if (q4.includes(Hasil[0])) SelectedItem = "4";
+  // if (q5.includes(Hasil[0])) SelectedItem = "5";
+  // if (q6.includes(Hasil[0])) SelectedItem = "6";
+  // if (q7.includes(Hasil[0])) SelectedItem = "7";
+  // if (q8.includes(Hasil[0])) SelectedItem = "8";
+  // if (q9.includes(Hasil[0])) SelectedItem = "9";
+  // if (q10.includes(Hasil[0])) SelectedItem = "10";
 
   // Proses
   box.style.setProperty("transition", "all ease 5s");
@@ -78,17 +78,17 @@ function spin() {
 
   // Munculkan Alert
   setTimeout(function () {
-    applause.play();
+    notif.play();
     swal({
       title: "Kamu memilih soal nomor : " + "" + SelectedItem,
-      text: "Klik continue untuk menjawab pertanyaan quiz",
+      text: "Klik CONTINUE untuk menjawab pertanyaan quiz",
       buttons: {
         cancel: true,
         confirm: "continue"
       }
     }).then((value) => {
       if (value) {
-        window.open('/soal/'+ SelectedItem +'/index.html');
+        location.href = '/soal/'+ SelectedItem +'/index.html';
       }
     });
   }, 5500);
