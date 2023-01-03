@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "Singkatan dari apakah BSSN ?",
-    a: "Badan Sandi dan Siber Negara",
-    b: "Badan Siber dan Sandi Negara",
-    c: "Badan Siber dan Sandi Nasional",
-    d: "Badan Sandi dan Siber Nasional",
-    correct: "b",
+    question: "Perangkat lunak berbahaya, meliputi spyware, ransomware, virus, worm, trojan merupakan bagian dari:",
+    a: "Software",
+    b: "Brainware",
+    c: "Hardware",
+    d: "Malware",
+    correct: "d",
   },
 ];
 

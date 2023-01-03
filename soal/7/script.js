@@ -1,10 +1,10 @@
 const quizData = [
   {
-    question: "Singkatan dari apakah BSSN ?",
-    a: "Badan Sandi dan Siber Negara",
-    b: "Badan Siber dan Sandi Negara",
-    c: "Badan Siber dan Sandi Nasional",
-    d: "Badan Sandi dan Siber Nasional",
+    question: "Area serangan siber?",
+    a: "Gedung Admin",
+    b: "IT dan OT",
+    c: "Main Unit",
+    d: "Warung Sebelah",
     correct: "b",
   },
 ];

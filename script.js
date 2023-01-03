@@ -99,3 +99,4 @@ function spin() {
     box.style.transform = "rotate(90deg)";
   }, 6000);
 }
+

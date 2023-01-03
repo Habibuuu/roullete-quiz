@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "Singkatan dari apakah BSSN ?",
-    a: "Badan Sandi dan Siber Negara",
-    b: "Badan Siber dan Sandi Negara",
-    c: "Badan Siber dan Sandi Nasional",
-    d: "Badan Sandi dan Siber Nasional",
-    correct: "b",
+    question: "5.	Siapakah Mentri kominfo saat ini?",
+    a: "Rudiantara",
+    b: "Hanggono A.",
+    c: "Abdul Hakim",
+    d: "Johnny G. Plate",
+    correct: "d",
   },
 ];
 
