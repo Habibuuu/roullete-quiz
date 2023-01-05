@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "Singkatan dari apakah BSSN ?",
+    question: "(1).Singkatan dari apakah BSSN ?",
     a: "Badan Sandi dan Siber Negara",
     b: "Badan Siber dan Sandi Negara",
     c: "Badan Siber dan Sandi Nasional",
@@ -77,7 +77,7 @@ submitBtn.addEventListener("click", () => {
            <div class="pyro">
            <div class="before"></div>
            <div class="after"></div>
-         </div>
+           </div>
            <div class="emoji emoji--haha">
                 <div class="emoji__face">
                     <div class="emoji__eyes"></div>
@@ -87,6 +87,7 @@ submitBtn.addEventListener("click", () => {
                 </div>
             </div>
             <h1>Selamat anda benar !!!</h1>
+            <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
             </center>
            <br>
            <br>
@@ -95,7 +96,7 @@ submitBtn.addEventListener("click", () => {
            <br>
            <br>
            <audio autoplay id="benar" src="./applause.mp3" type="audio/mp3"></audio>
-           <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+        
            `;
     }
     //jawaban salah
@@ -119,6 +120,7 @@ submitBtn.addEventListener("click", () => {
                 </div>
             </div>
             <h1>Tetot salah WkwK</h1>
+            <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
            </center>
            <br>
            <br>
@@ -128,14 +130,14 @@ submitBtn.addEventListener("click", () => {
            <br>
 
            <audio autoplay id="salah" src="./wrong.mp3" type="audio/mp3"></audio>
-           <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+     
         `;
     }
   }
 });
 
 //Waktu habis
-var sec = 10;
+var sec = 15;
 var myTimer = document.getElementById("myTimer");
 var submit = document.getElementById("submit");
 window.onload = countDown;
@@ -168,6 +170,7 @@ function countDown() {
                 </div>
                 </div>
                 <h1>Waktu Habis !!!</h1>
+            <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
             </center>
              <br>
              <br>
@@ -176,7 +179,7 @@ function countDown() {
              <br>
              <br>
              <audio autoplay id="telat" src="./telat.mp3" type="audio/mp3"></audio>
-             <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+
           `;
 
       $("#myTimer").fadeTo(2500, 0);

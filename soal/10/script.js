@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "5.	Siapakah Mentri kominfo saat ini?",
+    question: "(10).Siapakah Mentri kominfo saat ini?",
     a: "Rudiantara",
     b: "Hanggono A.",
     c: "Abdul Hakim",
@@ -65,77 +65,79 @@ submitBtn.addEventListener("click", () => {
     //Jawab benar
     if (score == 1) {
       quiz.innerHTML = `
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <center>
-           <div class="pyro">
-           <div class="before"></div>
-           <div class="after"></div>
-         </div>
-           <div class="emoji emoji--haha">
-                <div class="emoji__face">
-                    <div class="emoji__eyes"></div>
-                    <div class="emoji__mouth">
-                    <div class="emoji__tongue"></div>
-                    </div>
-                </div>
-            </div>
-            <h1>Selamat anda benar !!!</h1>
-            </center>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <audio autoplay id="benar" src="./applause.mp3" type="audio/mp3"></audio>
-           <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
-           `;
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>
+      <div class="pyro">
+      <div class="before"></div>
+      <div class="after"></div>
+      </div>
+      <div class="emoji emoji--haha">
+           <div class="emoji__face">
+               <div class="emoji__eyes"></div>
+               <div class="emoji__mouth">
+               <div class="emoji__tongue"></div>
+               </div>
+           </div>
+       </div>
+       <h1>Selamat anda benar !!!</h1>
+       <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+       </center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <audio autoplay id="benar" src="./applause.mp3" type="audio/mp3"></audio>
+   
+      `;
     }
     //jawaban salah
     else {
       score = 2;
       quiz.innerHTML = `
-        <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <center>
-           <div class="emoji emoji--angry">
-                <div class="emoji__face">
-                    <div class="emoji__eyebrows"></div>
-                    <div class="emoji__eyes"></div>
-                    <div class="emoji__mouth"></div>
-                </div>
-            </div>
-            <h1>Tetot salah WkwK</h1>
-           </center>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>
+      <div class="emoji emoji--angry">
+           <div class="emoji__face">
+               <div class="emoji__eyebrows"></div>
+               <div class="emoji__eyes"></div>
+               <div class="emoji__mouth"></div>
+           </div>
+       </div>
+       <h1>Tetot salah WkwK</h1>
+       <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+      </center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-           <audio autoplay id="salah" src="./wrong.mp3" type="audio/mp3"></audio>
-           <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
-        `;
+      <audio autoplay id="salah" src="./wrong.mp3" type="audio/mp3"></audio>
+
+   `;
     }
   }
 });
 
 //Waktu habis
-var sec = 10;
+var sec = 15;
 var myTimer = document.getElementById("myTimer");
 var submit = document.getElementById("submit");
 window.onload = countDown;
@@ -151,33 +153,34 @@ function countDown() {
 
     if (score == 0) {
       quiz.innerHTML = `
-          <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <center>
-             <div class="emoji emoji--sad">
-                <div class="emoji__face">
-                    <div class="emoji__eyebrows"></div>
-                    <div class="emoji__eyes"></div>
-                    <div class="emoji__mouth"></div>
-                </div>
-                </div>
-                <h1>Waktu Habis !!!</h1>
-            </center>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <audio autoplay id="telat" src="./telat.mp3" type="audio/mp3"></audio>
-             <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
-          `;
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center>
+      <div class="emoji emoji--sad">
+         <div class="emoji__face">
+             <div class="emoji__eyebrows"></div>
+             <div class="emoji__eyes"></div>
+             <div class="emoji__mouth"></div>
+         </div>
+         </div>
+         <h1>Waktu Habis !!!</h1>
+     <a href="javascript:history.back()"><button onclick="location.reload()">Reload</button></a>
+     </center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <audio autoplay id="telat" src="./telat.mp3" type="audio/mp3"></audio>
+
+   `;
 
       $("#myTimer").fadeTo(2500, 0);
       submit.innerHTML = "Click Me!";
