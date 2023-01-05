@@ -68,7 +68,7 @@ function spin() {
   if (q9.includes(Hasil[0])) SelectedItem = "9";
   if (q10.includes(Hasil[0])) SelectedItem = "10";
 
-  $random = rand(1,10);
+  // $random = rand(1,10);
 
   // Proses
   box.style.setProperty("transition", "all ease 5s");
