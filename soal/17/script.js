@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "Siapakah Mentri kominfo saat ini?",
-    a: "Rudiantara",
-    b: "Hanggono A.",
-    c: "Abdul Hakim",
-    d: "Johnny G. Plate",
-    correct: "d",
+    question: "Kapan Ogan Ilir berdiri??",
+    a: "7 Januari 2002",
+    b: "7 Januari 2003",
+    c: "7 Januari 2004",
+    d: "7 Januari 2005",
+    correct: "b",
   },
 ];
 

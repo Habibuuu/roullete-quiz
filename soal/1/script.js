@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "(1).Singkatan dari apakah BSSN ?",
+    question: "Singkatan dari apakah BSSN ?",
     a: "Badan Sandi dan Siber Negara",
     b: "Badan Siber dan Sandi Negara",
     c: "Badan Siber dan Sandi Nasional",

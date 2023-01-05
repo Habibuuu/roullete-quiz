@@ -1,10 +1,10 @@
 const quizData = [
   {
-    question: "Siapakah Mentri kominfo saat ini?",
-    a: "Rudiantara",
-    b: "Hanggono A.",
-    c: "Abdul Hakim",
-    d: "Johnny G. Plate",
+    question: "Yang termasuk tarian khas Kabupaten Ogan Ilir adalah?",
+    a: "Tari Pagar Pengantin,",
+    b: "Tari setabik",
+    c: "Tari Penguton",
+    d: "Tari Mapak Raje",
     correct: "d",
   },
 ];

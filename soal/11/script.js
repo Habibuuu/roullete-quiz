@@ -1,10 +1,10 @@
 const quizData = [
   {
-    question: "Siapakah Mentri kominfo saat ini?",
-    a: "Rudiantara",
-    b: "Hanggono A.",
-    c: "Abdul Hakim",
-    d: "Johnny G. Plate",
+    question: "Kendala >< ...?",
+    a: "Ujian",
+    b: "Pendukung",
+    c: "Rintangan",
+    d: "Hambatan",
     correct: "d",
   },
 ];

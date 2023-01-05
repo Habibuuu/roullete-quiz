@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "Siapakah Mentri kominfo saat ini?",
-    a: "Rudiantara",
-    b: "Hanggono A.",
-    c: "Abdul Hakim",
-    d: "Johnny G. Plate",
-    correct: "d",
+    question: "Siapa Nama Bupati Pertama di Kabupaten Ogan Ilir?",
+    a: "Herman Deru",
+    b: "Panca Wijaya Akbar",
+    c: "Mawardi Yahya",
+    d: "Daud Hasyium",
+    correct: "c",
   },
 ];
 

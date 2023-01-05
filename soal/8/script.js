@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "(8).Yang bukan termasuk serangan cyber?",
+    question: "Yang bukan termasuk serangan cyber?",
     a: "Cracking",
     b: "Phising",
     c: "Malware",

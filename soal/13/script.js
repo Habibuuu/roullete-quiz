@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "Siapakah Mentri kominfo saat ini?",
-    a: "Rudiantara",
-    b: "Hanggono A.",
-    c: "Abdul Hakim",
-    d: "Johnny G. Plate",
-    correct: "d",
+    question: "Berapakah usia Kabupaten Ogan Ilir Tahun 2023? ",
+    a: "17",
+    b: "18",
+    c: "19",
+    d: "20",
+    correct: "c",
   },
 ];
 

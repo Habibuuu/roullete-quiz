@@ -48,7 +48,7 @@ function spin() {
 
     // make random number SelectedItem
     if (q[0][0]) {
-        SelectedItem = Math.floor(Math.random() * 10) + 1;
+        SelectedItem = Math.floor(Math.random() * (20 - 1 + 1) ) + 1;
     }
 
     // Proses

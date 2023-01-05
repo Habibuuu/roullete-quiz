@@ -1,7 +1,7 @@
 const quizData = [
   {
     question:
-      "(3).Jenis Malware yang dapat mengenskripsi file atau dokumen yaitu?",
+      "Jenis Malware yang dapat mengenskripsi file atau dokumen yaitu?",
     a: "Adware",
     b: "Virus",
     c: "Spyware",

@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "(6).Yang berperan dalam Cyber Security?",
+    question: "Yang berperan dalam Cyber Security?",
     a: "Aturan",
     b: "Orang",
     c: "Teknologi",

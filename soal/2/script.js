@@ -1,11 +1,11 @@
 const quizData = [
   {
     question:
-      "(2).Siapakah Nama Bupati Ogan Ilir Periode 2021-2026?",
-    a: "Mawardi Yahya",
-    b: "Panca Wijaya Akbar",
-    c: "Herman Deru",
-    d: "Iskandar",
+      "Salah satu masakan khas yang terkenal dari Suku Ogan adalah?",
+    a: "Pempek Lenjer",
+    b: "Lepat atau Kasuran",
+    c: "Nasi Uduk",
+    d: "Pecel Lele",
     correct: "b",
   },
 ];

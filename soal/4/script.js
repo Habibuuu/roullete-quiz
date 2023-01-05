@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "(4).Menurut anda manakah password berikut yang paling aman?",
+    question: "Menurut anda manakah password berikut yang paling aman?",
     a: "Ycj24@mH.",
     b: "Password",
     c: "Friend5_Rom4ns_C0untrymen!",

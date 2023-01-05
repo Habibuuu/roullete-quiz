@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "(5).Apa yang harus anda lakukan ketika anda meninggalkan laptop untuk pergi makan siang?",
+    question: "Apa yang harus anda lakukan ketika anda meninggalkan laptop untuk pergi makan siang?",
     a: "Mematikan komputer anda.",
     b: "Langsung pergi begitu saja",
     c: "Loked the computer",

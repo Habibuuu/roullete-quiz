@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "(7).Area serangan siber?",
-    a: "Gedung Admin",
-    b: "IT dan OT",
-    c: "Main Unit",
-    d: "Warung Sebelah",
-    correct: "b",
+    question: "DEHIDRASI = .....?",
+    a: "Deliberasi",
+    b: "Proses penyusutan air",
+    c: "Kehilangan cairan tubuh",
+    d: "Dekapitalisasi",
+    correct: "c",
   },
 ];
 

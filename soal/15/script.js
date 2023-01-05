@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "Siapakah Mentri kominfo saat ini?",
-    a: "Rudiantara",
-    b: "Hanggono A.",
-    c: "Abdul Hakim",
-    d: "Johnny G. Plate",
-    correct: "d",
+    question: "Dibawah ini yang bukan termasuk Suku di Kabupaten Ogan Ilir?",
+    a: "Suku Pegagan Ulu",
+    b: "Suku Komering",
+    c: "Suku Penesak",
+    d: "Suku Pegagan Ilir",
+    correct: "b",
   },
 ];
 

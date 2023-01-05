@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "(9).Perangkat lunak berbahaya, meliputi spyware, ransomware, virus, worm, trojan merupakan bagian dari:",
+    question: "Perangkat lunak berbahaya, meliputi spyware, ransomware, virus, worm, trojan merupakan bagian dari:",
     a: "Software",
     b: "Brainware",
     c: "Hardware",
