@@ -129,7 +129,6 @@ submitBtn.addEventListener("click", () => {
       <br>
       <br>
       <br>
-
       <audio autoplay id="salah" src="./wrong.mp3" type="audio/mp3"></audio>
 
    `;

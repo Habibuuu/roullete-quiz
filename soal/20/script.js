@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "Siapa Nama Bupati Pertama di Kabupaten Ogan Ilir?",
+    question: "Siapa Nama Bupati Definitif Pertama di Kabupaten Ogan Ilir?",
     a: "Herman Deru",
     b: "Panca Wijaya Akbar",
     c: "Mawardi Yahya",

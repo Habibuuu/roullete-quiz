@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: "Kapan Ogan Ilir berdiri??",
+    question: "Kapan Ogan Ilir berdiri?",
     a: "7 Januari 2002",
     b: "7 Januari 2003",
     c: "7 Januari 2004",

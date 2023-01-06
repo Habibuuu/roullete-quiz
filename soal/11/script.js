@@ -1,10 +1,10 @@
 const quizData = [
   {
-    question: "Kendala >< ...?",
-    a: "Ujian",
-    b: "Pendukung",
-    c: "Rintangan",
-    d: "Hambatan",
+    question: "Perangkat yang terdapat dalam sistem komputer diantaranya adalah...?",
+    a: "Hardware, program dan CPU",
+    b: "Software, Brainware dan Linux",
+    c: "Hardware, program dan user",
+    d: "Hardware, software dan brainware",
     correct: "d",
   },
 ];
