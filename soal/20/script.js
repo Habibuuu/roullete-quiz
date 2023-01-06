@@ -1,10 +1,10 @@
 const quizData = [
   {
-    question: "Siapa Nama Bupati Definitif Pertama di Kabupaten Ogan Ilir?",
-    a: "Herman Deru",
-    b: "Panca Wijaya Akbar",
-    c: "Mawardi Yahya",
-    d: "Daud Hasyium",
+    question: "Pilihlah yang termasuk ke dalam utility program...?",
+    a: "Photoshop",
+    b: "Mac OS",
+    c: "Anti Virus",
+    d: "Java",
     correct: "c",
   },
 ];
@@ -74,6 +74,7 @@ submitBtn.addEventListener("click", () => {
       <br>
       <br>
       <center>
+      
       <div class="pyro">
       <div class="before"></div>
       <div class="after"></div>

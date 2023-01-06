@@ -1,11 +1,11 @@
 const quizData = [
   {
-    question: "DEHIDRASI = .....?",
-    a: "Deliberasi",
-    b: "Proses penyusutan air",
-    c: "Kehilangan cairan tubuh",
-    d: "Dekapitalisasi",
-    correct: "c",
+    question: "Dibawah ini yang merupakan bagian dari sistem operasi, kecuali...",
+    a: "CPU",
+    b: "Linux",
+    c: "Microsoft windows",
+    d: "Mac OS",
+    correct: "a",
   },
 ];
 
@@ -74,6 +74,7 @@ submitBtn.addEventListener("click", () => {
       <br>
       <br>
       <center>
+      
       <div class="pyro">
       <div class="before"></div>
       <div class="after"></div>
